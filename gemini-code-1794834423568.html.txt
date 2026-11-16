@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>聖水洞指南 | Seoul Winter Pocket Wiki</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-stone-50 text-stone-800 font-sans antialiased">
+
+  <!-- 頂部導覽列（與 index.html 保持完全一致） -->
+  <nav class="sticky top-0 z-50 bg-white/90 backdrop-blur border-b border-stone-200">
+    <div class="max-w-4xl mx-auto px-6 h-16 flex items-center justify-between">
+      <a href="index.html" class="font-bold text-lg tracking-tight text-stone-900 flex items-center gap-2">
+        <span class="bg-amber-600 text-white text-xs px-2 py-1 rounded-md">WIKI</span>
+        Seoul Winter Pocket
+      </a>
+      <div class="flex gap-6 text-sm font-medium text-stone-600">
+        <a href="index.html" class="hover:text-amber-600 transition">總覽首頁</a>
+        <a href="seongsu.html" class="text-amber-600 font-semibold">聖水洞指南</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- 主內容區 -->
+  <main class="max-w-4xl mx-auto px-6 py-12">
+    
+    <!-- 麵包屑導覽 -->
+    <div class="text-xs text-stone-500 mb-6 flex items-center gap-2">
+      <a href="index.html" class="hover:text-amber-600">首頁</a>
+      <span>/</span>
+      <span class="text-stone-800 font-medium">聖水洞指南</span>
+    </div>
+
+    <header class="mb-10">
+      <h1 class="text-3xl font-extrabold text-stone-900 tracking-tight mb-3">
+        01. 聖水洞 성수동 選物與咖啡地圖
+      </h1>
+      <p class="text-stone-600">
+        被稱為「首爾布魯克林」的潮流集散地，紅磚工廠改建的咖啡廳與新銳設計師品牌旗艦店林立。
+      </p>
+    </header>
+
+    <!-- 景點卡片 1（嚴格遵循 AGENTS.md 三段式格式） -->
+    <article class="bg-white rounded-2xl p-6 shadow-sm border border-stone-200/80 mb-6">
+      <div class="flex flex-wrap items-center justify-between gap-2 mb-4">
+        <h3 class="text-xl font-bold text-stone-900">MUSINSA EMPTY 聖水旗艦店</h3>
+        <div class="flex gap-2">
+          <span class="bg-amber-50 text-amber-700 text-xs font-semibold px-2.5 py-1 rounded-md">質感選物</span>
+          <span class="bg-stone-100 text-stone-600 text-xs font-medium px-2.5 py-1 rounded-md">聖水站 3 號出口</span>
+        </div>
+      </div>
+      
+      <div class="space-y-3 text-sm text-stone-600 leading-relaxed">
+        <p><strong class="text-stone-800">✨ 亮點特色：</strong>共四層樓的超大選物空間，集結韓國與國際前衛小眾設計師品牌，陳列極具空間設計感。</p>
+        <div>
+          <strong class="text-stone-800">🛍️ 必買 / 必看推薦：</strong>
+          <ul class="list-disc list-inside mt-1 space-y-1 ml-1">
+            <li>多款韓國獨立設計師包款與冬日針織單品</li>
+            <li>一樓不定期更換的快閃主題裝置藝術</li>
+          </ul>
+        </div>
+        <p><strong class="text-stone-800">📍 實用資訊：</strong>地鐵 2 號線聖水站 3 號出口步行約 3 分鐘｜營業時間 11:00 - 20:00</p>
+      </div>
+    </article>
+
+    <!-- 景點卡片 2 -->
+    <article class="bg-white rounded-2xl p-6 shadow-sm border border-stone-200/80 mb-6">
+      <div class="flex flex-wrap items-center justify-between gap-2 mb-4">
+        <h3 class="text-xl font-bold text-stone-900">Tamburins 聖水旗艦店</h3>
+        <div class="flex gap-2">
+          <span class="bg-amber-50 text-amber-700 text-xs font-semibold px-2.5 py-1 rounded-md">香氛保養</span>
+          <span class="bg-stone-100 text-stone-600 text-xs font-medium px-2.5 py-1 rounded-md">聖水站 4 號出口</span>
+        </div>
+      </div>
+      
+      <div class="space-y-3 text-sm text-stone-600 leading-relaxed">
+        <p><strong class="text-stone-800">✨ 亮點特色：</strong>以粗獷混凝土建築搭配大型藝術裝置聞名，是聖水洞最具代表性的視覺地標之一。</p>
+        <div>
+          <strong class="text-stone-800">🛍️ 必買 / 必看推薦：</strong>
+          <ul class="list-disc list-inside mt-1 space-y-1 ml-1">
+            <li>經典鏈條護手霜與蛋形香水（推薦木質調 CHAMO）</li>
+            <li>冬日保濕香氛膏，體積小巧適合隨身攜帶</li>
+          </ul>
+        </div>
+        <p><strong class="text-stone-800">📍 實用資訊：</strong>地鐵 2 號線聖水站 4 號出口步行約 6 分鐘｜營業時間 11:00 - 21:00</p>
+      </div>
+    </article>
+
+    <!-- 景點卡片 3 -->
+    <article class="bg-white rounded-2xl p-6 shadow-sm border border-stone-200/80 mb-6">
+      <div class="flex flex-wrap items-center justify-between gap-2 mb-4">
+        <h3 class="text-xl font-bold text-stone-900">Cafe Onion 聖水店 (어니언 성수)</h3>
+        <div class="flex gap-2">
+          <span class="bg-amber-50 text-amber-700 text-xs font-semibold px-2.5 py-1 rounded-md">烘焙咖啡</span>
+          <span class="bg-stone-100 text-stone-600 text-xs font-medium px-2.5 py-1 rounded-md">聖水站 2 號出口</span>
+        </div>
+      </div>
+      
+      <div class="space-y-3 text-sm text-stone-600 leading-relaxed">
+        <p><strong class="text-stone-800">✨ 亮點特色：</strong>保留 1970 年代老舊金屬工廠的斑駁牆面與工業風結構，頂樓設有露天座位區。</p>
+        <div>
+          <strong class="text-stone-800">🛍️ 必買 / 必看推薦：</strong>
+          <ul class="list-disc list-inside mt-1 space-y-1 ml-1">
+            <li>招牌雪山麵包（Pandoro），撒滿糖粉搭配熱拿鐵絕配</li>
+            <li>每日現烤可頌與鹹奶油麵包</li>
+          </ul>
+        </div>
+        <p><strong class="text-stone-800">📍 實用資訊：</strong>地鐵 2 號線聖水站 2 號出口步行約 2 分鐘｜平日 08:00 - 22:00（週末 10:00 營業）</p>
+      </div>
+    </article>
+
+  </main>
+
+  <footer class="border-t border-stone-200 py-8 text-center text-xs text-stone-400">
+    Built with AGENTS.md Specification · Seoul Winter Pocket Wiki
+  </footer>
+
+</body>
+</html>

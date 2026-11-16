@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seoul Winter Pocket Wiki | 首爾冬日漫遊知識庫</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-stone-50 text-stone-800 font-sans antialiased">
+
+  <!-- 頂部導覽列 -->
+  <nav class="sticky top-0 z-50 bg-white/90 backdrop-blur border-b border-stone-200">
+    <div class="max-w-4xl mx-auto px-6 h-16 flex items-center justify-between">
+      <a href="index.html" class="font-bold text-lg tracking-tight text-stone-900 flex items-center gap-2">
+        <span class="bg-amber-600 text-white text-xs px-2 py-1 rounded-md">WIKI</span>
+        Seoul Winter Pocket
+      </a>
+      <div class="flex gap-6 text-sm font-medium text-stone-600">
+        <a href="index.html" class="text-amber-600 font-semibold">總覽首頁</a>
+        <a href="seongsu.html" class="hover:text-amber-600 transition">聖水洞指南</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- 主內容區 -->
+  <main class="max-w-4xl mx-auto px-6 py-12">
+    
+    <!-- Hero 區塊 -->
+    <header class="mb-12">
+      <div class="inline-block bg-amber-100 text-amber-800 text-xs font-semibold px-3 py-1 rounded-full mb-4">
+        2027 Winter Edition · 個人旅遊知識庫
+      </div>
+      <h1 class="text-3xl md:text-4xl font-extrabold text-stone-900 tracking-tight mb-4">
+        首爾冬日漫遊與質感選物指南
+      </h1>
+      <p class="text-stone-600 text-lg leading-relaxed">
+        這是一份模組化的首爾自由行知識庫，收錄冬季必訪的質感選物店、人氣咖啡廳與散步路線。本網站依照 <code class="bg-stone-200/70 px-1.5 py-0.5 rounded text-sm font-mono">AGENTS.md</code> 規範建置，可隨時透過 AI 快速擴充新區域與景點卡片。
+      </p>
+    </header>
+
+    <!-- 探索指南目錄 -->
+    <section class="mb-12">
+      <h2 class="text-xl font-bold text-stone-900 mb-6 flex items-center gap-2">
+        <span>📂</span> 區域探索指南目錄
+      </h2>
+      
+      <div class="grid md:grid-cols-2 gap-6">
+        <!-- 卡片 1：已建立的頁面 -->
+        <a href="seongsu.html" class="group block bg-white rounded-2xl p-6 shadow-sm border border-stone-200 hover:border-amber-500 transition">
+          <div class="flex justify-between items-start mb-3">
+            <span class="bg-emerald-50 text-emerald-700 text-xs font-semibold px-2.5 py-1 rounded-md">已上線</span>
+            <span class="text-stone-400 group-hover:text-amber-600 transition">→</span>
+          </div>
+          <h3 class="text-xl font-bold text-stone-900 mb-2 group-hover:text-amber-600 transition">
+            01. 聖水洞 성수동
+          </h3>
+          <p class="text-stone-600 text-sm leading-relaxed">
+            韓國設計師品牌旗艦店一級戰區，包含 Musinsa Empty、Matin Kim、Tamburins 與工業風咖啡廳精選。
+          </p>
+        </a>
+
+        <!-- 卡片 2：預留擴充展示 -->
+        <div class="bg-stone-100/70 rounded-2xl p-6 border border-dashed border-stone-300">
+          <div class="flex justify-between items-start mb-3">
+            <span class="bg-stone-200 text-stone-600 text-xs font-semibold px-2.5 py-1 rounded-md">待擴充模組</span>
+          </div>
+          <h3 class="text-xl font-bold text-stone-500 mb-2">
+            02. 漢南洞 한남동（規劃中）
+          </h3>
+          <p class="text-stone-500 text-sm leading-relaxed">
+            未來可直接請 AI 讀取 AGENTS.md 規範，自動生成漢南洞香氛與選物店子頁面並連結至此。
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 冬日出行小叮嚀 -->
+    <section class="bg-white rounded-2xl p-6 shadow-sm border border-stone-200">
+      <h2 class="text-lg font-bold text-stone-900 mb-4">❄️ 首爾冬季出行備忘錄</h2>
+      <ul class="space-y-2.5 text-sm text-stone-600">
+        <li>• <strong>洋蔥式穿搭</strong>：1-2 月室外氣溫常在零下，但室內與地鐵暖氣極強，建議「發熱衣 + 毛衣 + 羽絨大衣」方便穿脫。</li>
+        <li>• <strong>必備 App</strong>：出發前下載 <strong>Naver Map</strong>（Google Maps 在韓國導航不準確）與 <strong>Papago</strong> 翻譯。</li>
+        <li>• <strong>退稅準備</strong>：逛選物店務必隨身攜帶護照正本，單筆滿 15,000 韓元即可辦理現場退稅。</li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer class="border-t border-stone-200 py-8 text-center text-xs text-stone-400">
+    Built with AGENTS.md Specification · Seoul Winter Pocket Wiki
+  </footer>
+
+</body>
+</html>
